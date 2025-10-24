@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Matcher</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .job {
+      border: 1px solid #ccc;
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      width: 300px;
+      padding: 8px;
+      margin-top: 10px;
+    }
+    button {
+      padding: 8px 15px;
+      margin-top: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    {% if message %}
+  <p style="color: red;">{{ message }}</p>
+{% endif %}
+  <h1>Find Jobs Based on Your Skills</h1>
+
+  <form method="POST">
+    <label for="skills">Enter your skills (comma separated):</label><br>
+    <input list="skill-options" name="skills" id="skills" required placeholder="e.g. python, sql, react">
+    <datalist id="skill-options">
+      {% for skill in all_skills %}
+        <option value="{{ skill }}">
+      {% endfor %}
+    </datalist>
+  
+    <br>
+    <button type="submit">Find Jobs</button>
+  </form>
+
+  <hr>
+
+  {% if matches %}
+    <h2>Matching Jobs</h2>
+    {% for job in matches %}
+      <div class="job">
+        <h3>{{ job.title }} at {{ job.company }}</h3>
+        <p>{{ job.description }}</p>
+        <p><strong>Required Skills:</strong> {{ job.skills | join(", ") }}</p>
+        <p><strong>Match Score:</strong> {{ job.match_score }}</p>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+[
+    {
+      "title": "Frontend Developer",
+      "company": "TechCorp",
+      "description": "Responsible for building the user-facing side of web applications.",
+      "skills": ["html", "css", "javascript", "react"]
+    },
+    {
+      "title": "Backend Developer",
+      "company": "DevSolutions",
+      "description": "Develop the server-side logic, APIs, and databases.",
+      "skills": ["python", "flask", "sql"]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "WebWorks",
+      "description": "Build both the front-end and back-end of web applications.",
+      "skills": ["javascript", "node.js", "react", "mongodb"]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "AI Innovations",
+      "description": "Analyze and interpret complex data to help make business decisions.",
+      "skills": ["python", "pandas", "numpy", "machine learning"]
+    },
+    {
+      "title": "Mobile App Developer",
+      "company": "AppStudio",
+      "description": "Build and maintain mobile applications for iOS and Android.",
+      "skills": ["flutter", "dart", "firebase"]
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "Creative Labs",
+      "description": "Design user-friendly interfaces and ensure a great user experience.",
+      "skills": ["figma", "sketch", "photoshop"]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "CloudTech",
+      "description": "Build, test, and deploy infrastructure and services in cloud environments.",
+      "skills": ["docker", "kubernetes", "aws", "jenkins"]
+    },
+    {
+      "title": "Product Manager",
+      "company": "Innovative Solutions",
+      "description": "Manage the development of new products from ideation to launch.",
+      "skills": ["agile", "scrum", "product roadmap"]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "CodeCrafters",
+      "description": "Design, develop, and maintain software applications.",
+      "skills": ["java", "spring", "hibernate", "sql"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "company": "ML Tech",
+      "description": "Build and optimize machine learning models for various applications.",
+      "skills": ["python", "tensorflow", "pytorch", "deep learning"]
+    },
+    {
+      "title": "Database Administrator",
+      "company": "DataCorp",
+      "description": "Manage and optimize database systems for performance and security.",
+      "skills": ["mysql", "postgresql", "oracle", "sql"]
+    },
+    {
+      "title": "Business Analyst",
+      "company": "BizSolutions",
+      "description": "Analyze business processes and provide solutions to improve efficiency.",
+      "skills": ["excel", "powerbi", "sql", "tableau"]
+    },
+    {
+      "title": "Network Engineer",
+      "company": "NetWorks",
+      "description": "Design, implement, and maintain computer networks.",
+      "skills": ["ccna", "networking", "router configuration", "firewalls"]
+    },
+    {
+      "title": "Cybersecurity Analyst",
+      "company": "SecureNet",
+      "description": "Monitor and protect company systems from cyber threats.",
+      "skills": ["penetration testing", "firewalls", "cybersecurity", "network security"]
+    },
+    {
+      "title": "Game Developer",
+      "company": "Pixel Games",
+      "description": "Develop interactive and engaging video games.",
+      "skills": ["unity", "unreal engine", "c#", "game design"]
+    },
+    {
+      "title": "Cloud Engineer",
+      "company": "SkyTech",
+      "description": "Develop and manage cloud infrastructure and services.",
+      "skills": ["aws", "azure", "google cloud", "terraform"]
+    },
+    {
+      "title": "Salesforce Developer",
+      "company": "SalesforceTech",
+      "description": "Develop customized solutions using Salesforce CRM.",
+      "skills": ["salesforce", "apex", "visualforce", "lightning"]
+    },
+    {
+      "title": "Blockchain Developer",
+      "company": "Blockchain Inc.",
+      "description": "Develop decentralized applications and smart contracts.",
+      "skills": ["solidity", "ethereum", "blockchain", "cryptocurrency"]
+    },
+    {
+      "title": "System Administrator",
+      "company": "SysOps",
+      "description": "Maintain and configure computer systems and servers.",
+      "skills": ["linux", "bash", "windows server", "networking"]
+    },
+    {
+      "title": "SEO Specialist",
+      "company": "SEO Agency",
+      "description": "Optimize websites to improve their search engine ranking.",
+      "skills": ["seo", "google analytics", "semrush", "keyword research"]
+    },
+    {
+      "title": "Content Writer",
+      "company": "ContentPro",
+      "description": "Write articles, blogs, and content for websites and businesses.",
+      "skills": ["writing", "copywriting", "content strategy", "editing"]
+    },
+    {
+      "title": "Sales Executive",
+      "company": "SalesForce",
+      "description": "Manage sales leads and close deals with clients.",
+      "skills": ["sales", "customer relations", "crm", "negotiation"]
+    },
+    {
+      "title": "Technical Support Specialist",
+      "company": "TechSupport Co.",
+      "description": "Provide technical support to customers and resolve issues.",
+      "skills": ["customer support", "troubleshooting", "technical knowledge", "communication"]
+    },
+    {
+      "title": "HR Manager",
+      "company": "PeopleFirst",
+      "description": "Oversee recruitment, employee relations, and company policies.",
+      "skills": ["recruitment", "hr policies", "employee relations", "performance management"]
+    },
+    {
+      "title": "Digital Marketing Specialist",
+      "company": "MarketingPro",
+      "description": "Plan and execute digital marketing campaigns across platforms.",
+      "skills": ["seo", "social media marketing", "google ads", "content marketing"]
+    },
+    {
+      "title": "Salesforce Administrator",
+      "company": "CloudWorks",
+      "description": "Administer and customize Salesforce CRM for business needs.",
+      "skills": ["salesforce", "crm", "administration", "automation"]
+    },
+    {
+        "title":"Game Development",
+        "company":"Cloud Works",
+        "description":"Enhancing Gaming experience through VR",
+        "skills":["cpp","python","AI","ML","UNREAL ENGINE"]
+    }
+    
+  ]
+  
